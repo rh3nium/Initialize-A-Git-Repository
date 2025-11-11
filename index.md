@@ -1,4 +1,4 @@
-<center><div align="center" style="background-color:#ffe6ef; padding:10px; border-radius:8px;">
+<div align="center" style="background-color:#ffe6ef; padding:10px; border-radius:8px;">
 
 # 🧭 Initialize A Git Repository
 
@@ -6,9 +6,9 @@
 
 [🏠 Home](index.md) | [📘 Usage](usage.md)
 
----
+</div>
 
-</div></center>
+---
 
 ## 🚀 Project Overview
 
@@ -17,7 +17,7 @@ This project, **“Initialize a Git Repository”**, automates the process of cr
 👉 For detailed instructions on running and testing the project, see [**USAGE.md →**](usage.md)
 
 <br>
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/1024px-Git-logo.svg.png" style = "width: 50%; height: auto;">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/1024px-Git-logo.svg.png" style="width:50%;height:auto;">
 <br>
 
 The main script (`create_repo.sh`) performs the following tasks automatically:
@@ -53,10 +53,10 @@ For usage information and steps, check out [Usage Guide](usage.md).
 
 This project provided a hands-on understanding of:
 
-* 🔁 Using Git for version control and collaboration
-* 🐧 Writing automation scripts in Bash
-* ⚙️ Setting up GitHub Actions for CI/CD
-* 🧩 Organizing repositories with clean folder structures
-* 🧠 Managing issues, milestones, and documentation effectively
+* 🔁 Using Git for version control and collaboration  
+* 🐧 Writing automation scripts in Bash  
+* ⚙️ Setting up GitHub Actions for CI/CD  
+* 🧩 Organizing repositories with clean folder structures  
+* 🧠 Managing issues, milestones, and documentation effectively  
 
 It demonstrates a **complete software workflow** — from idea and issue tracking, to automation, testing, and documentation — using GitHub as a professional development platform.

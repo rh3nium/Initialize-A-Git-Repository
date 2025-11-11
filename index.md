@@ -1,4 +1,14 @@
-# 🧭 Comprehensive Project – Unit 3
+<center><div align="center" style="background-color:#ffe6ef; padding:10px; border-radius:8px;">
+
+# 🧭 Initialize A Git Repository
+
+**Repository providing code to initialize an empty Git repository on the user's desktop.**
+
+[🏠 Home](index.md) | [📘 Usage](usage.md)
+
+---
+
+</div></center>
 
 ## 🚀 Project Overview
 

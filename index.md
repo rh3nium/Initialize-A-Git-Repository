@@ -1,0 +1,48 @@
+# 🧭 Comprehensive Project – Unit 3
+
+## 🚀 Project Overview
+
+This project, **“Initialize a Git Repository”**, automates the process of creating a new Git project folder using a simple **Bash script**.
+
+👉 For detailed instructions on running and testing the project, see the [**Usage Guide →**](usage.md)
+
+The main script (`create_repo.sh`) performs the following tasks automatically:
+
+1. 🗂️ Creates a new folder named `new_project` on the user’s **Desktop**.
+2. ⚙️ Enters the folder and initializes a **Git repository** using `git init`.
+3. 📝 Creates a basic `README.md` file with project information.
+4. 🧾 Adds all files and commits them with the message *“Initial commit.”*
+
+This saves time for users who frequently set up new projects, ensuring a consistent and clean starting point for version control.
+
+---
+
+## 📘 Files Overview
+
+| File / Folder                         | Description                                        |
+| ------------------------------------- | -------------------------------------------------- |
+| `src/create_repo.sh`                  | Main Bash script that initializes a Git repository |
+| `tests/test_create_repo.sh`           | Test script to validate the main script            |
+| `.github/workflows/test-workflow.yml` | CI workflow for automation                         |
+| `docs/`                               | Project documentation (this file and `usage.md`)   |
+| `assets/`                             | Example outputs, images, and references            |
+
+---
+
+## 🌐 Usage
+
+For usage information and steps, check out [Usage Guide](usage.md).
+
+---
+
+## 💡 Learning Reflection
+
+This project provided a hands-on understanding of:
+
+* 🔁 Using Git for version control and collaboration
+* 🐧 Writing automation scripts in Bash
+* ⚙️ Setting up GitHub Actions for CI/CD
+* 🧩 Organizing repositories with clean folder structures
+* 🧠 Managing issues, milestones, and documentation effectively
+
+It demonstrates a **complete software workflow** — from idea and issue tracking, to automation, testing, and documentation — using GitHub as a professional development platform.

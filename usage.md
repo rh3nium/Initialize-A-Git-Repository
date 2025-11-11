@@ -1,27 +1,31 @@
+<center><div align="center" style="background-color:#ffe6ef; padding:10px; border-radius:8px;">
+
+# 🧭 Usage Guide – Initialize A Git Repository
+
+**Instructions for running and customizing the Bash script to automate Git setup.**
+
+[🏠 Home](index.md) | [📘 Usage](usage.md)
+
 ---
 
-````markdown
-# Usage Guide – Unit 3 Bash Git Setup Script
-
-This document explains how to use the `setup.sh` script included in this repository.
-
----
+</div></center>
 
 ## 🧰 What the Script Does
 
-The script performs two simple automated tasks:
+The `setup.sh` (or `create_repo.sh`) script automates two key setup steps:
 
-1. **Creates a new folder** on your Desktop (named `new_project` by default).  
-2. **Initializes a Git repository** inside that folder, ready for version control.
+1. **Creates a new folder** on your Desktop (default name: `new_project`)
+2. **Initializes a Git repository** inside that folder — ready for version control.
 
 ---
 
 ## ▶️ How to Run the Script
 
 ### 1. Open a terminal and navigate to this folder:
+
 ```bash
 cd path/to/unit3
-````
+```
 
 ### 2. Make the script executable (first time only):
 
@@ -41,7 +45,7 @@ bash setup.sh
 
 Example terminal output:
 
-```
+```bash
 Creating folder on Desktop...
 Initialized empty Git repository in /home/riya/Desktop/new_project/.git/
 Done! Repository created at: /home/riya/Desktop/new_project
@@ -49,7 +53,7 @@ Done! Repository created at: /home/riya/Desktop/new_project
 
 After running, you should see a new folder on your Desktop:
 
-```
+```bash
 Desktop/
 └── new_project/
     └── .git/
@@ -65,7 +69,7 @@ You can edit this line in `setup.sh` to change the name of the folder created:
 FOLDER_NAME="new_project"
 ```
 
-Replace `"new_project"` with any name you prefer, for example:
+Replace it with any name you prefer, for example:
 
 ```bash
 FOLDER_NAME="class_repo"
@@ -75,15 +79,21 @@ FOLDER_NAME="class_repo"
 
 ## 🧩 Notes
 
-* Ensure Git is installed and configured (`git --version` to check).
-* The script will not overwrite an existing folder with the same name — it will simply reuse it.
-* Works on Linux and macOS systems (Windows users can run via WSL or Git Bash).
+* Ensure Git is installed (`git --version` to verify).
+* The script won’t overwrite an existing folder — it reuses it if found.
+* Works on **Linux**, **macOS**, or **Windows (Git Bash/WSL)**.
 
 ---
 
 ## ✅ Example Use Case
 
-This script is useful for quickly setting up:
+This script helps you quickly create:
 
-* A new Git project on your Desktop for coursework or testing.
-* Clean, ready-to-use repositories without manually typing Git commands.
+* A new Git project for assignments or coding practice.
+* A clean repo ready for commits without manual setup.
+
+---
+
+## 🔗 Navigation
+
+← [Back to Home](index.md)

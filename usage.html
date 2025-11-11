@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usage - Initialize A Git Repository</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        .header-box {
+            background-color: #ffe6ef;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .header-box h1 {
+            color: #333;
+            margin-top: 0;
+            font-size: 2em;
+        }
+        .nav-links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+        .section-title {
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-top: 40px;
+            color: #333;
+        }
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 4px;
+            border-radius: 4px;
+            font-family: Consolas, monospace;
+        }
+        pre {
+            background-color: #333;
+            color: #f8f8f2;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        pre code {
+            background-color: transparent;
+            padding: 0;
+            color: #f8f8f2;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        hr {
+            border: 0;
+            height: 1px;
+            background: #ccc;
+            margin: 30px 0;
+        }
+        .note-list li {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <center>
+        <div class="header-box">
+            <h1>&#128892; Usage Guide – Initialize A Git Repository</h1>
+            <p><strong>Instructions for running and customizing the Bash script to automate Git setup.</strong></p>
+            <div class="nav-links">
+                <a href="index.md">&#127960; Home</a> | <a href="usage.md">&#128214; Usage</a>
+            </div>
+            <hr>
+        </div>
+    </center>
+
+    <h2 class="section-title">&#128738;&#xfe0f; What the Script Does</h2>
+
+    <p>The <code>setup.sh</code> (or <code>create_repo.sh</code>) script automates two key setup steps:</p>
+    <ol>
+        <li><strong>Creates a new folder</strong> on your Desktop (default name: <code>new_project</code>)</li>
+        <li><strong>Initializes a Git repository</strong> inside that folder — ready for version control.</li>
+    </ol>
+
+    <hr>
+
+    <h2 class="section-title">&#9654;&#xfe0f; How to Run the Script</h2>
+
+    <h3>1. Open a terminal and navigate to this folder:</h3>
+    <pre><code>cd path/to/unit3</code></pre>
+
+    <h3>2. Make the script executable (first time only):</h3>
+    <pre><code>chmod +x setup.sh</code></pre>
+
+    <h3>3. Run the script:</h3>
+    <pre><code>bash setup.sh</code></pre>
+
+    <hr>
+
+    <h2 class="section-title">&#128441;&#xfe0f; Expected Output</h2>
+
+    <p>Example terminal output:</p>
+    <pre><code>Creating folder on Desktop...
+Initialized empty Git repository in /home/riya/Desktop/new_project/.git/
+Done! Repository created at: /home/riya/Desktop/new_project</code></pre>
+
+    <p>After running, you should see a new folder on your Desktop:</p>
+    <pre><code>Desktop/
+└── new_project/
+    └── .git/
+</code></pre>
+
+    <hr>
+
+    <h2 class="section-title">&#9881;&#xfe0f; Customizing the Folder Name</h2>
+
+    <p>You can edit this line in <code>setup.sh</code> to change the name of the folder created:</p>
+    <pre><code>FOLDER_NAME="new_project"</code></pre>
+
+    <p>Replace it with any name you prefer, for example:</p>
+    <pre><code>FOLDER_NAME="class_repo"</code></pre>
+
+    <hr>
+
+    <h2 class="section-title">&#129513; Notes</h2>
+
+    <ul class="note-list">
+        <li>Ensure Git is installed (<code>git --version</code> to verify).</li>
+        <li>The script won’t overwrite an existing folder — it reuses it if found.</li>
+        <li>Works on <strong>Linux</strong>, <strong>macOS</strong>, or <strong>Windows (Git Bash/WSL)</strong>.</li>
+    </ul>
+
+    <hr>
+
+    <h2 class="section-title">&#9989; Example Use Case</h2>
+
+    <p>This script helps you quickly create:</p>
+    <ul>
+        <li>A new Git project for assignments or coding practice.</li>
+        <li>A clean repo ready for commits without manual setup.</li>
+    </ul>
+
+    <hr>
+
+    <h2 class="section-title">&#128279; Navigation</h2>
+    <p>&larr; <a href="index.md">Back to Home</a></p>
+
+</body>
+</html>

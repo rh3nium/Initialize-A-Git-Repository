@@ -14,7 +14,11 @@
 
 This project, **“Initialize a Git Repository”**, automates the process of creating a new Git project folder using a simple **Bash script**.
 
-👉 For detailed instructions on running and testing the project, see the [**Usage Guide →**](usage.md)
+👉 For detailed instructions on running and testing the project, see [**USAGE.md →**](usage.md)
+
+<br>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/1024px-Git-logo.svg.png" style = "width: 50%; height: auto;">
+<br>
 
 The main script (`create_repo.sh`) performs the following tasks automatically:
 

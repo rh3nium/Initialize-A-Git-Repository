@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Initialize A Git Repository</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        .header-box {
+            background-color: #ffe6ef;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .header-box h1 {
+            color: #333;
+            margin-top: 0;
+            font-size: 2em;
+        }
+        .nav-links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+        .section-title {
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-top: 40px;
+            color: #333;
+        }
+        .git-logo {
+            display: block;
+            width: 50%;
+            height: auto;
+            margin: 20px auto;
+        }
+        .file-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        .file-table th, .file-table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        .file-table th {
+            background-color: #f2f2f2;
+        }
+        .highlight {
+            font-weight: bold;
+            color: #007bff;
+        }
+        hr {
+            border: 0;
+            height: 1px;
+            background: #ccc;
+            margin: 30px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-box">
+        <h1>&#128892; Initialize A Git Repository</h1>
+        <p><strong>Repository providing code to initialize an empty Git repository on the user's desktop.</strong></p>
+        <div class="nav-links">
+            <a href="index.html">&#127960; Home</a> | <a href="usage.md">&#128214; Usage</a>
+        </div>
+    </div>
+
+    <hr>
+
+    <h2 class="section-title">&#128640; Project Overview</h2>
+    <p>This project, <span class="highlight">"Initialize a Git Repository"</span>, automates the process of creating a new Git project folder using a simple <strong>Bash script</strong>.</p>
+    <p>&#128077; For detailed instructions on running and testing the project, see <a href="usage.md"><strong>USAGE.md &rarr;</strong></a></p>
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/1024px-Git-logo.svg.png" class="git-logo" alt="Git Logo">
+
+    <p>The main script (<code>create_repo.sh</code>) performs the following tasks automatically:</p>
+    <ul>
+        <li>&#128455;&#xfe0f; Creates a new folder named <code>new_project</code> on the user’s <strong>Desktop</strong>.</li>
+        <li>&#9881;&#xfe0f; Enters the folder and initializes a <strong>Git repository</strong> using <code>git init</code>.</li>
+        <li>&#128221; Creates a basic <code>README.md</code> file with project information.</li>
+        <li>&#128477;&#xfe0f; Adds all files and commits them with the message <em>“Initial commit.”</em></li>
+    </ul>
+    <p>This saves time for users who frequently set up new projects, ensuring a consistent and clean starting point for version control.</p>
+
+    <hr>
+
+    <h2 class="section-title">&#128214; Files Overview</h2>
+    <table class="file-table">
+        <thead>
+            <tr>
+                <th>File / Folder</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><code>src/create_repo.sh</code></td>
+                <td>Main Bash script that initializes a Git repository</td>
+            </tr>
+            <tr>
+                <td><code>tests/test_create_repo.sh</code></td>
+                <td>Test script to validate the main script</td>
+            </tr>
+            <tr>
+                <td><code>.github/workflows/test-workflow.yml</code></td>
+                <td>CI workflow for automation</td>
+            </tr>
+            <tr>
+                <td><code>docs/</code></td>
+                <td>Project documentation (this file and <code>usage.md</code>)</td>
+            </tr>
+            <tr>
+                <td><code>assets/</code></td>
+                <td>Example outputs, images, and references</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <h2 class="section-title">&#127760; Usage</h2>
+    <p>For usage information and steps, check out <a href="usage.md">Usage Guide</a>.</p>
+
+    <hr>
+
+    <h2 class="section-title">&#128161; Learning Reflection</h2>
+    <p>This project provided a hands-on understanding of:</p>
+    <ul>
+        <li>&#9203; Using Git for version control and collaboration</li>
+        <li>&#128039; Writing automation scripts in Bash</li>
+        <li>&#9881;&#xfe0f; Setting up GitHub Actions for CI/CD</li>
+        <li>&#129513; Organizing repositories with clean folder structures</li>
+        <li>&#129504; Managing issues, milestones, and documentation effectively</li>
+    </ul>
+    <p>It demonstrates a <strong>complete software workflow</strong> — from idea and issue tracking, to automation, testing, and documentation — using GitHub as a professional development platform.</p>
+
+</body>
+</html>
